@@ -1,98 +1,185 @@
-[
-    {
-        "id": "FR-1",
-        "type": "range",
-        "start_number": "+33162000000",
-        "end_number": "+33162999999",
-        "description": "ARCEP reserved range for telemarketing",
-        "source": "ARCEP"
-    },
-    {
-        "id": "FR-2",
-        "type": "range",
-        "start_number": "+33163000000",
-        "end_number": "+33163999999",
-        "description": "ARCEP reserved range for telemarketing",
-        "source": "ARCEP"
-    },
-    {
-        "id": "FR-3",
-        "type": "range",
-        "start_number": "+33270000000",
-        "end_number": "+33270999999",
-        "description": "ARCEP reserved range for telemarketing",
-        "source": "ARCEP"
-    },
-    {
-        "id": "FR-4",
-        "type": "range",
-        "start_number": "+33271000000",
-        "end_number": "+33271999999",
-        "description": "ARCEP reserved range for telemarketing",
-        "source": "ARCEP"
-    },
-    {
-        "id": "FR-5",
-        "type": "range",
-        "start_number": "+33377000000",
-        "end_number": "+33377999999",
-        "description": "ARCEP reserved range for telemarketing",
-        "source": "ARCEP"
-    },
-    {
-        "id": "FR-6",
-        "type": "range",
-        "start_number": "+33378000000",
-        "end_number": "+33378999999",
-        "description": "ARCEP reserved range for telemarketing",
-        "source": "ARCEP"
-    },
-    {
-        "id": "FR-7",
-        "type": "range",
-        "start_number": "+33424000000",
-        "end_number": "+33424999999",
-        "description": "ARCEP reserved range for telemarketing",
-        "source": "ARCEP"
-    },
-    {
-        "id": "FR-8",
-        "type": "range",
-        "start_number": "+33425000000",
-        "end_number": "+33425999999",
-        "description": "ARCEP reserved range for telemarketing",
-        "source": "ARCEP"
-    },
-    {
-        "id": "FR-9",
-        "type": "range",
-        "start_number": "+33568000000",
-        "end_number": "+33568999999",
-        "description": "ARCEP reserved range for telemarketing",
-        "source": "ARCEP"
-    },
-    {
-        "id": "FR-10",
-        "type": "range",
-        "start_number": "+33569000000",
-        "end_number": "+33569999999",
-        "description": "ARCEP reserved range for telemarketing",
-        "source": "ARCEP"
-    },
-    {
-        "id": "FR-11",
-        "type": "range",
-        "start_number": "+33948000000",
-        "end_number": "+33948999999",
-        "description": "ARCEP reserved range for telemarketing",
-        "source": "ARCEP"
-    },
-    {
-        "id": "FR-12",
-        "type": "range",
-        "start_number": "+33949000000",
-        "end_number": "+33949999999",
-        "description": "ARCEP reserved range for telemarketing",
-        "source": "ARCEP"
-    }
-]
+{
+    "version": "0x2",
+    "reserved0": "",
+    "reserved1": "",
+    "reserved3": "",
+    "reserved4": "",
+    "blocklist_entries": [
+        {
+            "id": "FR-1",
+            "type": "range",
+            "start_number": "+33162000000",
+            "end_number": "+33162999999",
+            "description": "ARCEP reserved range for telemarketing (France Métropolitaine)",
+            "source": "ARCEP"
+        },
+        {
+            "id": "FR-2",
+            "type": "range",
+            "start_number": "+33163000000",
+            "end_number": "+33163999999",
+            "description": "ARCEP reserved range for telemarketing (France Métropolitaine)",
+            "source": "ARCEP"
+        },
+        {
+            "id": "FR-3",
+            "type": "range",
+            "start_number": "+33270000000",
+            "end_number": "+33270999999",
+            "description": "ARCEP reserved range for telemarketing (France Métropolitaine)",
+            "source": "ARCEP"
+        },
+        {
+            "id": "FR-4",
+            "type": "range",
+            "start_number": "+33271000000",
+            "end_number": "+33271999999",
+            "description": "ARCEP reserved range for telemarketing (France Métropolitaine)",
+            "source": "ARCEP"
+        },
+        {
+            "id": "FR-5",
+            "type": "range",
+            "start_number": "+33377000000",
+            "end_number": "+33377999999",
+            "description": "ARCEP reserved range for telemarketing (France Métropolitaine)",
+            "source": "ARCEP"
+        },
+        {
+            "id": "FR-6",
+            "type": "range",
+            "start_number": "+33378000000",
+            "end_number": "+33378999999",
+            "description": "ARCEP reserved range for telemarketing (France Métropolitaine)",
+            "source": "ARCEP"
+        },
+        {
+            "id": "FR-7",
+            "type": "range",
+            "start_number": "+33424000000",
+            "end_number": "+33424999999",
+            "description": "ARCEP reserved range for telemarketing (France Métropolitaine)",
+            "source": "ARCEP"
+        },
+        {
+            "id": "FR-8",
+            "type": "range",
+            "start_number": "+33425000000",
+            "end_number": "+33425999999",
+            "description": "ARCEP reserved range for telemarketing (France Métropolitaine)",
+            "source": "ARCEP"
+        },
+        {
+            "id": "FR-9",
+            "type": "range",
+            "start_number": "+33568000000",
+            "end_number": "+33568999999",
+            "description": "ARCEP reserved range for telemarketing (France Métropolitaine)",
+            "source": "ARCEP"
+        },
+        {
+            "id": "FR-10",
+            "type": "range",
+            "start_number": "+33569000000",
+            "end_number": "+33569999999",
+            "description": "ARCEP reserved range for telemarketing (France Métropolitaine)",
+            "source": "ARCEP"
+        },
+        {
+            "id": "FR-11",
+            "type": "range",
+            "start_number": "+33948000000",
+            "end_number": "+33948999999",
+            "description": "ARCEP reserved range for telemarketing (France Métropolitaine)",
+            "source": "ARCEP"
+        },
+        {
+            "id": "FR-12",
+            "type": "range",
+            "start_number": "+33949000000",
+            "end_number": "+33949999999",
+            "description": "ARCEP reserved range for telemarketing (France Métropolitaine)",
+            "source": "ARCEP"
+        },
+        {
+            "id": "FR-13",
+            "type": "range",
+            "start_number": "+590598700000",
+            "end_number": "+590598799999",
+            "description": "ARCEP reserved range for telemarketing (Guadeloupe, Saint-Martin et Saint-Barthélemy)",
+            "source": "ARCEP"
+        },
+        {
+            "id": "FR-14",
+            "type": "range",
+            "start_number": "+590947500000",
+            "end_number": "+590947599999",
+            "description": "ARCEP reserved range for telemarketing (Guadeloupe, Saint-Martin et Saint-Barthélemy)",
+            "source": "ARCEP"
+        },
+        {
+            "id": "FR-15",
+            "type": "range",
+            "start_number": "+594598800000",
+            "end_number": "+594598899999",
+            "description": "ARCEP reserved range for telemarketing (Guyane)",
+            "source": "ARCEP"
+        },
+        {
+            "id": "FR-16",
+            "type": "range",
+            "start_number": "+594947600000",
+            "end_number": "+594947699999",
+            "description": "ARCEP reserved range for telemarketing (Guyane)",
+            "source": "ARCEP"
+        },
+        {
+            "id": "FR-17",
+            "type": "range",
+            "start_number": "+596598900000",
+            "end_number": "+596598999999",
+            "description": "ARCEP reserved range for telemarketing (Martinique)",
+            "source": "ARCEP"
+        },
+        {
+            "id": "FR-18",
+            "type": "range",
+            "start_number": "+596947700000",
+            "end_number": "+596947799999",
+            "description": "ARCEP reserved range for telemarketing (Martinique)",
+            "source": "ARCEP"
+        },
+        {
+            "id": "FR-19",
+            "type": "range",
+            "start_number": "+262268800000",
+            "end_number": "+262268899999",
+            "description": "ARCEP reserved range for telemarketing (La Réunion, Mayotte et autres territoires de l'Océan Indien)",
+            "source": "ARCEP"
+        },
+        {
+            "id": "FR-20",
+            "type": "range",
+            "start_number": "+262268900000",
+            "end_number": "+262268999999",
+            "description": "ARCEP reserved range for telemarketing (La Réunion, Mayotte et autres territoires de l'Océan Indien)",
+            "source": "ARCEP"
+        },
+        {
+            "id": "FR-21",
+            "type": "range",
+            "start_number": "+262947800000",
+            "end_number": "+262947899999",
+            "description": "ARCEP reserved range for telemarketing (La Réunion, Mayotte et autres territoires de l'Océan Indien)",
+            "source": "ARCEP"
+        },
+        {
+            "id": "FR-22",
+            "type": "range",
+            "start_number": "+262947900000",
+            "end_number": "+262947999999",
+            "description": "ARCEP reserved range for telemarketing (La Réunion, Mayotte et autres territoires de l'Océan Indien)",
+            "source": "ARCEP"
+        }
+    ]
+}
