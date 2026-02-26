@@ -1,1 +1,8 @@
-[]
+{
+    "version": "0x1",
+    "reserved0": "",
+    "reserved1": "",
+    "reserved3": "",
+    "reserved4": "",
+    "blocklist_entries": []
+}
